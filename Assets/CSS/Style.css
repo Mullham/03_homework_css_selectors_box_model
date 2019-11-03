@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* color: #033048; */
+    /* background-color: gray; */
 }
 
 .Top_of_the_page{
@@ -45,6 +47,27 @@ div.top_nav{
     /* grid-column: 1 / span 3; */
 }
 
+.body_of_contents{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin: 0 auto;
+    padding-left: 10%;
+    background-color: gainsboro;
+}
+
+.ad{
+    background-color: white;
+    text-align: center;
+    height: 150px;
+    color:#033048;
+}
+
+ul{
+    list-style: none;
+    color: #033048;
+}
+
 .title_one>h1{
     color: #033048;
 }
@@ -53,13 +76,32 @@ div.top_nav{
     color: #033048;
 }
 
+article>p::first-letter{
+    font-size: 500%;
+    color:#033048;
+}
+
+article>a{
+    text-decoration: none;
+    float: right;
+}
+
+
+
+.title_two{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .Sign_up_part{
     background-color: yellow;
     align-items: center;
     display: flex;
+    height: cover;
+    width: cover;
     justify-content: center;
     padding: 15px;
-    margin: 15px;
+    margin: 0;
 }
 
 .Sign_up_part>button{
@@ -77,6 +119,9 @@ div.top_nav{
     text-align: center;
     padding:2px;
 }
-.footer:first-child{
-    text-clo
+.footer>div:first-child{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 800;
 }
+
